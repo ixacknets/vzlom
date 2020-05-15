@@ -36,11 +36,11 @@ def main():
    print '           ()   V.1.0        '
 
 main()
-print '[1] start the attack'
-print '[2] exit'
+print '[1] Hujumni boshlash'
+print '[2] chiqish'
 option = input('==>')
 if option == 1:
-   file_path = raw_input('path of passwords file :')
+   file_path = raw_input('parol faylini manzilini yozing :')
 else:
    system('clear')
    exit()
